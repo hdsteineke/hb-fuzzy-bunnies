@@ -42,3 +42,22 @@ Enable row level security and add policies that only allow authenticated users t
 2. Automatically generate the bunny form using a bunny fetched from the database. That way if new properties end up added to the bunny table, the front end dev doesn't need to update the front end later.
 3. Add filter/sort functionality to the families page? Let the user decide to only show bunnies who are larger than 7 lbs, for example? Only show families with more than 2 bunnies?
 4. _Mega ambitious_: I want to able to drag and drop bunnies to different families.
+
+
+
+
+~~ MASTER PLAN
+
+Primarily just follow through the commented steps that are written in each directory, but the following is a general guideline:
+
+1. write fetch-utils
+2. start on create bunnies page
+    -fill in event listeners for 'submit' and 'onload'
+
+3. make sure login-page is working
+4. work on families page:
+    -write displayFamilies function
+    -fill in event listener for 'on load'
+
+5. double-check assignment functionality against rubric
+6. stretch goals??
