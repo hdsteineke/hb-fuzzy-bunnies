@@ -21,10 +21,9 @@ form.addEventListener('submit', async e => {
         family_id: data.get('family-id')
     });
     
-    //add fetchAndDisplayFunction
-
-
     form.reset();
+    window.location.href = '../families';
+
 });
 
 window.addEventListener('load', async () => {
