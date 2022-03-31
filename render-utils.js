@@ -14,15 +14,4 @@ export function renderBunny(someBunny) {
     return a;
 }
 
-export function renderBunnyDetail(someBunny) {
-    const bunnyEl = document.createElement('div');
-    const nameEl = document.createElement('h3');
-    const familyEl = document.createElement('select');
-    
 
-
-    bunnyEl.classList.add('bunny');
-
-    nameEl.textContent = someBunny.name;
- 
-}
