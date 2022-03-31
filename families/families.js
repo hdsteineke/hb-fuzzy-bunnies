@@ -1,5 +1,6 @@
 import { checkAuth, deleteBunny, getFamilies, logout } from '../fetch-utils.js';
 
+
 checkAuth();
 
 const familiesEl = document.querySelector('.families-container');
